@@ -1,46 +1,59 @@
 .hero{
     padding-bottom:30px;
+    background-color: #03A9F3;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: bottom center;
     background-attachment: fixed;
-    /*turi buti nemazesne nei ekrano aukstis*/
     text-align: center;
+    /*turi buti nemazesne nei ekrano aukstis*/
     height:100vh;
 }
 
-.hero > .row{
-    width:600px;
-    margin: 0 calc(50% - 300px);
-}
+    .hero > .row{
+        width:600px;
+        margin: 0 calc(50% - 300px);
+    }
 
-.hero > img{
-    margin-bottom: 40px;
-    width:40px;
-    background-color: yellow;
-}
+    .hero img{
+        width:40px;
+        margin-bottom: 40px;
+    }
 
-.hero > h1{
-    width:100%;
-    margin-bottom: 20px;
-    font-size:40px;
-    line-height:50px;
-    text-transform: uppercase;
-}
+    .hero h1{
+        width:100%;
+        margin-bottom: 20px;
+        font-size:48px;
+        line-height:50px;
+        text-transform: uppercase;
+    }
 
-.hero > p{
-    width:100%;
-    font-size: 20px;
-    line-height:25px;
-    color:#555;
-}
+    .hero p{
+        width:100%;
+        font-size: 20px;
+        line-height:25px;
+        color:#555;
+    }
 
-.hero > .clock{
-    margin:80px 0;
-}
+    .hero .clock{
+        width:100%;
+        margin:80px 0;
+    }
 
-.hero > .form{
-    width: 90%;
-    margin: 0 5% 20px;
+    .hero .form{
+        width: 90%;
+        margin: 0 5% 20px;
+    }
+
+    .hero .mouse {
+
+    }
+
+@media (max-width: 700px) {
+.hero > .row {
+    width: 100%;
+    margin: 0;
+    padding: 0 20px;
+}
 }
