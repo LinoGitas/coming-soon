@@ -1,57 +1,68 @@
 footer.container {
     padding: 0 0 40px;
-    background-color: #03a9f3;
-    color:#fff;
-    text-align:center;
+    background-color: #03A9F3;
+    color: #fff;
+    text-align: center;
 }
-
 
 footer > .row:nth-child(1) {
-    padding:10px 0;
- border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    border-bottom: 2px solid #fff;
 }
-    footer .social-link{
-        color:#fff;
-        width:40px;
-        font-size:20px;
+    footer .fa {
+        width: 40px;
+        color: #fff;
+        font-size: 20px;
         line-height: 40px;
-        text-align:center;
+        text-align: center;
+        text-decoration: none;
     }
-
-        footer .social-link{
-            line-height: inerhit;
-        }
 
 footer > .row:nth-child(2) {
-    width:600px;
-    color:#fff8;
+    width: 700px;
+    color: #fff8;
     font-size: 17px;
 }
-    footer .footer-logo{
-        width:150px;
-        margin:30px 0;
+    footer .footer-logo {
+        width: 200px;
+        margin: 30px 0;
     }
-
-    footer .footer-text{
+    footer .texts {
         line-height: 30px;
     }
-        footer .footer-text > p{
-            /*width:calc(100% / 3);*/
-            float:left;
-            padding:0 10px;
+        footer .texts > p {
+            float: left;
+            padding: 0 10px;
         }
-        footer .footer-p{
-            line-height: 30px;
-        }
-footer > .row:nth-child(2) a {
-    color:#fff;
-}
+            footer .texts > p:nth-child(2) {
+                border: 2px solid #fff;
+                border-top: none;
+                border-bottom: none;
+            }
+    footer .footer-p {
+        line-height: 30px;
+    }
+    footer > .row:nth-child(2) a {
+        color: #fff;
+        text-decoration: none;
+    }
 
 @media (max-width: 800px) {
     footer > .row:nth-child(2) {
-        width:500px;
-        margin:calc(100% / 250);
+        width: 500px;
+        margin: 0 calc(50% - 250px);
+    }
+    footer .texts > p {
+        width: 100%;
+    }
+        footer .texts > p:nth-child(2) {
+            border: none;
+        }
+}
+@media (max-width: 600px) {
+    footer > .row:nth-child(2) {
+        width: 100%;
+        padding: 0 20px;
+        margin: 0;
     }
 }
-
-
