@@ -39,6 +39,7 @@
     .hero .clock{
         width:100%;
         margin:80px 0;
+        color:#fff;
     }
 
         .hero .clock > .time {
