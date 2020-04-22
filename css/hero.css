@@ -8,7 +8,7 @@
     background-attachment: fixed;
     text-align: center;
     /*turi buti nemazesne nei ekrano aukstis*/
-    height:100vh;
+    min-height:100vh;
 }
 
     .hero > .row{
@@ -63,8 +63,44 @@
     }
 
     .hero .mouse {
-
+        width:160px;
+        height:220px;
+        background-color: transparent;
+        border:10px solid #fff;
+        border-radius: 50px;
     }
+
+        .hero .mouse > .wheel{
+            width:60px;
+            height:60px;
+            background-color: #efff;
+            margin-top: 30px;
+            animation: mouse 1.5s ease-out 0s infinite normal forwards;
+            border-radius: 5px;
+            background-image: url(../img/mouse.jpeg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+       /* .hero .mouse > .wheel:hover{
+           animation-play-state: paused;
+        }*/
+
+        @keyframes mouse {
+            0%{
+                margin-top: 30px;
+                opacity: 1;
+                /*transform: rotate(0deg);*/
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                margin-top: 120px;
+                opacity: 0;
+                /*transform: rotate(1000deg);*/
+            }
+        }
 
 @media (max-width: 700px) {
     .hero > .row {
