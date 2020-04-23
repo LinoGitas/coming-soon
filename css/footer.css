@@ -19,6 +19,10 @@ footer > .row:nth-child(1) {
         text-decoration: none;
     }
 
+    footer .fa span{
+        display:none;
+    }
+
 footer > .row:nth-child(2) {
     width: 700px;
     color: #fff8;
