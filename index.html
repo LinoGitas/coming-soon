@@ -4,13 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coming soon</title>
+    <!--Reset-->
     <link rel="stylesheet" href="./css/reset.css">
+    <!--3rd party-->
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <!--Components-->
+    <link rel="stylesheet" href="./css/progress-bar.css">
+    <link rel="stylesheet" href="./css/form.css">   
+    <link rel="stylesheet" href="./css/button.css">
+    <!--Layout-->
     <link rel="stylesheet" href="./css/layout.css">
+    <!--Structure-->
     <link rel="stylesheet" href="./css/hero.css">
     <link rel="stylesheet" href="./css/content.css">
-    <link rel="stylesheet" href="./css/progress-bar.css">
     <link rel="stylesheet" href="./css/footer.css">
+    
+    
+    
+    
 </head>
 <body>
     <div class="container hero">
@@ -39,7 +50,9 @@
             </div>
             </div>
             <div class="form">
-                Subscribe form
+                <input type="text" placeholder="Type your email">
+            <div class="btn btn-red">Subscribe Now</div>
+
             </div>
             <div class="mouse">
                 <div class="wheel"></div>
@@ -88,9 +101,12 @@
             <div class="right">
                 <h2>Have any question?</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit <a href="mailto:myemail@email.com">myemail@email.com</a> molestiae itaque illo aut sit recusandae, dolore, consequuntur numquam molestias iure fuga! Sed eos expedita mollitia ratione illo tempore, dolores rem.</p>
-                <div class="form">
-                    MESSAGE FORM
-                </div>
+                <form class="form">
+                   <input class="half" type="text" placeholder="Name">
+                   <input class="half" type="email" placeholder="Email">
+                   <textarea placeholder="Message"></textarea>
+                   <div class="btn btn-red">Sand Message</div>
+                </form>
             </div>
         </div>
     </main>
@@ -103,6 +119,7 @@
            <a href="#" class="fa fa-instagram"></a>
            <a href="#" class="fa fa-linkedin"></a>
            <a href="#" class="fa fa-rss"></a>
+           <a href="#" class="btn back-to-top btn-circle btn-red fa fa-angle-up"></a>
         </div>
         <div class="row">
             <img src="./img/logo2.jpg" alt="Footer logo" class="footer-logo">
